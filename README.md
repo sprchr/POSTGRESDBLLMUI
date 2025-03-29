@@ -24,11 +24,7 @@ The backend is built using FastAPI and integrates with OpenAI's GPT models and P
 
 ## Project Structure
 
-
-src/
-├── App.jsx          // Main application component
-└── main.jsx        // Entry point of the application
-=======
+```
 nl2sql_backend/
 ├── app/
 │   ├── main.py           # FastAPI application entry point
@@ -46,7 +42,7 @@ nl2sql_backend/
 │   │   ├── query_routes.py   # API endpoints
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
->>>>>>> d07fceb (first commit)
+
 ```
 
 ## Dependencies
