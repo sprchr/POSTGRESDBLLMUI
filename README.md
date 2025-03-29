@@ -11,8 +11,8 @@ The frontend is built using React and Material-UI. It provides a user interface 
 -   Display the generated SQL query.
 -   Display the results of the SQL query.
 
-## The frontend communicates with a backend API (running on `http://127.0.0.1:8000/query`) to generate and execute SQL queries.
-=======
+The frontend communicates with a backend API (running on `http://127.0.0.1:8000/query`) to generate and execute SQL queries.
+
 # Natural Language to SQL Backend API
 
 This document describes the backend API that converts natural language queries into SQL queries for a PostgreSQL database.
@@ -20,12 +20,11 @@ This document describes the backend API that converts natural language queries i
 ## Overview
 
 The backend is built using FastAPI and integrates with OpenAI's GPT models and Pinecone for schema indexing. It provides an API endpoint to receive natural language queries, generate corresponding SQL queries, and execute them against a PostgreSQL database.
->>>>>>> d07fceb (first commit)
+
 
 ## Project Structure
 
-```
-<<<<<<< HEAD
+
 src/
 ├── App.jsx          // Main application component
 └── main.jsx        // Entry point of the application
@@ -52,7 +51,6 @@ nl2sql_backend/
 
 ## Dependencies
 
-<<<<<<< HEAD
 -   `react`: Core React library.
 -   `@mui/material`: Material-UI components for styling.
 -   `@mui/icons-material`: Material-UI icons.
@@ -160,7 +158,7 @@ The application uses Material-UI for styling. Custom CSS classes are also used f
 -   The `queryResult` is flattened and joined with newlines for display. This handles the case where the result is a multi-dimensional array.
 -   Error handling for API requests is limited to logging errors to the console.
 -   The UI utilizes tailwind css classes within the Material UI components.
-=======
+
 -   `fastapi`: Web framework for building APIs.
 -   `uvicorn`: ASGI server for running FastAPI applications.
 -   `openai`: OpenAI Python library for interacting with GPT models.
