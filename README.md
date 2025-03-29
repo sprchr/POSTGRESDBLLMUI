@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # React Frontend for Natural Language to SQL Query
 
 This document describes the React frontend application that allows users to input natural language queries and receive corresponding SQL queries and results.
@@ -296,4 +296,3 @@ DB_PORT=<your_db_port>
 -   Error handling is implemented to catch exceptions and return appropriate error messages.
 -   The `schema_index.py` needs to be run once to index the database schema.
 -   The Pinecone environment is set to `us-west1-gcp` in this example. Modify it if needed
->>>>>>> d07fceb (first commit)
