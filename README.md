@@ -11,7 +11,7 @@ The frontend is built using React and Material-UI. It provides a user interface 
 -   Display the generated SQL query.
 -   Display the results of the SQL query.
 
-The frontend communicates with a backend API (running on `http://127.0.0.1:8000/query`) to generate and execute SQL queries.
+## The frontend communicates with a backend API (running on `http://127.0.0.1:8000/query`) to generate and execute SQL queries.
 =======
 # Natural Language to SQL Backend API
 
